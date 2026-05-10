@@ -1,0 +1,23 @@
+## .NET
+bin/
+obj/
+*.user
+.vs/
+*.suo
+
+## SQLite dev database (don't commit it)
+*.db
+*.db-shm
+*.db-wal
+
+## EF Core migrations snapshot is committed, but not the compiled output
+## (migrations themselves should be committed)
+
+## Rider / VS Code
+.idea/
+.vscode/
+*.DotSettings.user
+
+## OS
+.DS_Store
+Thumbs.db
